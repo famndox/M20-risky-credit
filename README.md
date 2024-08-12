@@ -11,14 +11,14 @@ Class 0 (Healthy Loan):
 * Precision: 1.00 (perfect precision, no false positives)
 * Recall: 0.99 (very high recall, only 1% of actual healthy loans are misclassified)
 * F1-score: 1.00 (perfect F1-score, indicating excellent balance between precision and recall)
-The model is extremely accurate in predicting healthy loans (class 0). It correctly identifies almost all healthy loans (99% recall) and doesn't misclassify any healthy loans as high-risk loans (100% precision).
+<br>The model is extremely accurate in predicting healthy loans (class 0). It correctly identifies almost all healthy loans (99% recall) and doesn't misclassify any healthy loans as high-risk loans (100% precision).
 
 Class 1 (High-Risk Loan):
 
 * Precision: 0.85 (good precision, but some false positives)
 * Recall: 0.91 (good recall, but some high-risk loans are missed)
 * F1-score: 0.88 (good F1-score, but not as high as class 0)
-The model is good, but not excellent, in predicting high-risk loans (class 1). It correctly identifies most high-risk loans (91% recall), but also misclassifies some healthy loans as high-risk loans (15% false positives, as indicated by the precision).
+<br>The model is good, but not excellent, in predicting high-risk loans (class 1). It correctly identifies most high-risk loans (91% recall), but also misclassifies some healthy loans as high-risk loans (15% false positives, as indicated by the precision).
 
 ## Summary
 
