@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-Using historical lending activity from a peer-to-peer lending services company, I’ve trained and evaluated a model to identify creditworthiness of borrowers. This simple ai split the dataset to fit a regression model. You can view the code here: C’mon Over Y’all
+Using historical lending activity from a peer-to-peer lending services company, I’ve trained and evaluated a model to identify creditworthiness of borrowers. This simple ai split the dataset to fit a regression model. You can view the code here: [Link to Notebook](https://nbviewer.jupyter.org/github/famndox/M20-risky-credit/blob/main/Starter_Code/credit_risk_classification.ipynb)<br>
 
 ## Results
 
@@ -29,3 +29,5 @@ To improve the model, I'm considering:
 * Collecting more data on high-risk loans to improve the model's performance on this class.
 * Adjusting the model's hyperparameters or using techniques like class weighting to reduce the bias towards the majority class.
 * Exploring other models or ensemble methods that can better handle class imbalance.
+
+As always, a great thanks to the nice folks & bots at <a href='https://www.blackbox.ai/'>Blackbox AI</a> for understanding these concepts far better than me.
